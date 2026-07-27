@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://fanqiangma.dpdns.org/"
 languageCode = "zh-CN"
 title = "阿密导航站"
 theme = "hugo-webstack"

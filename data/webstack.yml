@@ -1,8 +1,53 @@
----
+# ============================================
+# 个人导航站配置文件 (WebStack / 静态导航模板)
+# ============================================
+- taxonomy: 📚 博客与存档资源
+  icon: fa-book
+  links:
+    - title: 个人博客 (xo.je)
+      logo: https://weixiaolong.xo.je/favicon.ico
+      url: https://weixiaolong.xo.je/
+      description: 个人独立博客
 
-- taxonomy: 常用推荐
+    - title: HyperPHP 博客
+      logo: https://weixiaolong.hyperphp.com/favicon.ico
+      url: https://weixiaolong.hyperphp.com/?i=1
+      description: 个人 HyperPHP 博客站点
+
+    - title: 云端家庭相册
+      logo: https://xiaolongfamily.dpdns.org/favicon.ico
+      url: https://xiaolongfamily.dpdns.org/?i=1
+      description: 私人云端相册存储
+
+    - title: 小龙资源站
+      logo: http://xiaolong.jswonder.com/favicon.ico
+      url: http://xiaolong.jswonder.com/
+      description: JS Wonder 个人站点
+
+    - title: 编程随想的博客
+      logo: https://www.google.com/s2/favicons?sz=64&domain=program-think.blogspot.com
+      url: https://program-think.blogspot.com/?m=1
+      description: 网络安全与技术启蒙独立博客
+
+    - title: 天涯论坛历史镜像
+      logo: https://www.google.com/s2/favicons?sz=64&domain=web.archive.org
+      url: https://web.archive.org/web/20150309224049/http://bbs.tianya.cn/list-16-1.shtml
+      description: 2015 年天涯论坛网页时光机存档
+
+    - title: Batocera 整合包
+      logo: https://www.google.com/s2/favicons?sz=64&domain=archive.org
+      url: https://archive.org/details/batocera-dev-35-pc-64-especial-base-120-gb-10-07-2022
+      description: Batocera 模拟器游戏系统镜像下载
+
+    - title: WhatsApp 网页版
+      logo: https://www.google.com/s2/favicons?sz=64&domain=web.whatsapp.com
+      url: https://web.whatsapp.com/
+      description: WhatsApp Web 登录入口
+
+
+- taxonomy: 🚀 工具推荐
   icon: fa-star
-  links: 
+  links:
     - title: Speedtest
       logo: https://www.google.com/s2/favicons?sz=64&domain=www.speedtest.net
       url: https://www.speedtest.net/
@@ -16,74 +61,144 @@
     - title: weixiaolong.dpdns
       logo: http://weixiaolong.dpdns.org/favicon.ico
       url: http://weixiaolong.dpdns.org/
-      description: 个人站点
+      description: 个人动态域名站点
 
     - title: xiaolong13.serv00
       logo: https://xiaolong13.serv00.net/favicon.ico
       url: https://xiaolong13.serv00.net/
-      description: 个人站点
+      description: Serv00 个人站点
 
-    - title: OpenClaw
-      logo: https://www.google.com/s2/favicons?sz=64&domain=openclaw.ai
-      url: https://openclaw.ai/
-      description: AI 助手
+    - title: Smart Nav 智能导航
+      logo: https://www.google.com/s2/favicons?sz=64&domain=smart-nav-5dm.pages.dev
+      url: https://smart-nav-5dm.pages.dev/
+      description: 个人云端导航页
 
     - title: IP欺诈检测
       logo: https://www.google.com/s2/favicons?sz=64&domain=scamalytics.com
       url: https://scamalytics.com/ip/103.151.173.91
-      description: IP 风险评估检测
-
-    - title: DigitalPlat 域名
-      logo: https://www.google.com/s2/favicons?sz=64&domain=domain.digitalplat.org
-      url: https://domain.digitalplat.org/
-      description: 域名服务
-
-    - title: Koofr WebDAV
-      logo: https://www.google.com/s2/favicons?sz=64&domain=app.koofr.net
-      url: https://app.koofr.net/dav/Koofr
-      description: WebDAV 云存储服务
-
-    - title: RaiDrive
-      logo: https://www.google.com/s2/favicons?sz=64&domain=www.raidrive.com
-      url: https://www.raidrive.com/zh-Hans/
-      description: 挂载云盘为本地磁盘
-
-    - title: FreeFileSync
-      logo: https://www.google.com/s2/favicons?sz=64&domain=freefilesync.org
-      url: https://freefilesync.org/download.php
-      description: 文件夹同步与备份软件
-
-    - title: InfinityFree 面板
-      logo: https://www.google.com/s2/favicons?sz=64&domain=dash.infinityfree.com
-      url: https://dash.infinityfree.com/accounts
-      description: 免费主机管理面板
-
-    - title: 博客
-      logo: https://weixiaolong.xo.je/favicon.ico
-      url: https://weixiaolong.xo.je/
-      description: 个人博客
+      description: IP 风险与纯净度评估检测
 
     - title: 盘搜
       logo: https://www.google.com/s2/favicons?sz=64&domain=so.252035.xyz
       url: https://so.252035.xyz/
-      description: 网盘资源搜索
+      description: 聚合网盘资源搜索
+
+    - title: 翻墙马节点
+      logo: http://fanqiangma.dpdns.org/favicon.ico
+      url: http://fanqiangma.dpdns.org/
+      description: 动态域名节点服务
+
+- taxonomy: 🌐 节点检测与网络工具
+  icon: fa-network-wired
+  links:
+    - title: IPCheck.ing
+      logo: https://www.google.com/s2/favicons?sz=64&domain=ipcheck.ing
+      url: https://ipcheck.ing/#/
+      description: 综合 IP 质量与节点信息检测
+
+    - title: IP.sb
+      logo: https://www.google.com/s2/favicons?sz=64&domain=ip.sb
+      url: https://ip.sb/
+      description: 简洁高效的 IP 查询工具
+
+    - title: NthLink
+      logo: https://www.google.com/s2/favicons?sz=64&domain=www.nthlink.com
+      url: https://www.nthlink.com/
+      description: 安全网络连接与翻墙工具
+
+- taxonomy: 🛠️ 运维与服务管理
+  icon: fa-server
+  links:
+    - title: Cloudflare 面板
+      logo: https://www.google.com/s2/favicons?sz=64&domain=dash.cloudflare.com
+      url: https://dash.cloudflare.com/
+      description: 全球 CDN 与 Workers 平台控制台
 
     - title: serv00 面板
       logo: https://www.google.com/s2/favicons?sz=64&domain=panel9.serv00.com
       url: https://panel9.serv00.com/login/?next=/
       description: Serv00 服务器管理面板
 
-    - title: HyperPHP 博客
-      logo: https://weixiaolong.hyperphp.com/favicon.ico
-      url: https://weixiaolong.hyperphp.com/?i=1
-      description: 个人博客
+    - title: DigitalPlat 域名
+      logo: https://www.google.com/s2/favicons?sz=64&domain=domain.digitalplat.org
+      url: https://dash.domain.digitalplat.org/auth/login
+      description: 免费域名托管面板
 
-    - title: 家庭相册
-      logo: https://xiaolongfamily.dpdns.org/favicon.ico
-      url: https://xiaolongfamily.dpdns.org/?i=1
-      description: 云端相册
+    - title: InfinityFree 面板
+      logo: https://www.google.com/s2/favicons?sz=64&domain=dash.infinityfree.com
+      url: https://dash.infinityfree.com/accounts
+      description: 免费 PHP 主机管理面板
+
+    - title: weixiaolong 控制台
+      logo: https://weixiaolong.eu.cc/favicon.ico
+      url: https://weixiaolong.eu.cc/panel
+      description: 个人主机管理面板
+
+- taxonomy: 🤖 软件工具与 AI 开发
+  icon: fa-cubes
+  links:
+    - title: Notepad++ 官网
+      logo: https://www.google.com/s2/favicons?sz=64&domain=notepad-plus-plus.org
+      url: https://notepad-plus-plus.org/
+      description: 轻量级文本与代码编辑器
+
+    - title: PuTTY 官方下载
+      logo: https://www.google.com/s2/favicons?sz=64&domain=www.chiark.greenend.org.uk
+      url: https://www.chiark.greenend.org.uk/~sgtatham/putty/
+      description: SSH 远程连接服务器工具
+
+    - title: Tabby 终端
+      logo: https://www.google.com/s2/favicons?sz=64&domain=tabby.sh
+      url: https://tabby.sh/
+      description: 现代化高颜值的跨平台 SSH 终端
+
+    - title: Clipchamp 剪辑
+      logo: https://www.google.com/s2/favicons?sz=64&domain=clipchamp.com
+      url: https://app.clipchamp.com/consumer/home?referrer=ClipchampSEOPages&referrerScenario=Direct.Landing.NoIntent
+      description: 微软网页版在线视频剪辑工具
+
+    - title: NVIDIA Build
+      logo: https://www.google.com/s2/favicons?sz=64&domain=build.nvidia.com
+      url: https://build.nvidia.com/
+      description: 英伟达官方 AI 模型与 API 测试平台
+
+    - title: OpenClaw
+      logo: https://www.google.com/s2/favicons?sz=64&domain=openclaw.ai
+      url: https://openclaw.ai/
+      description: 开源 AI 自动化与抓取工具
+
+    - title: ClawHub AI
+      logo: https://www.google.com/s2/favicons?sz=64&domain=clawhub.ai
+      url: https://clawhub.ai/
+      description: OpenClaw 技能与生态社区
+
+    - title: Google Gemini
+      logo: https://www.google.com/s2/favicons?sz=64&domain=gemini.google.com
+      url: https://gemini.google.com/app/5f920aa58d656297
+      description: 谷歌 Gemini 对话与智能体助手
+
+    - title: Koofr WebDAV
+      logo: https://www.google.com/s2/favicons?sz=64&domain=app.koofr.net
+      url: https://app.koofr.net/dav/Koofr
+      description: 支持 WebDAV 的欧洲免费网盘
+
+    - title: RaiDrive
+      logo: https://www.google.com/s2/favicons?sz=64&domain=www.raidrive.com
+      url: https://www.raidrive.com/zh-Hans/
+      description: 将网盘挂载为 Windows 本地磁盘
+
+    - title: FreeFileSync
+      logo: https://www.google.com/s2/favicons?sz=64&domain=freefilesync.org
+      url: https://freefilesync.org/download.php
+      description: 免费开源的文件同步与备份软件
+
+    - title: WordPress 插件库
+      logo: https://www.google.com/s2/favicons?sz=64&domain=cn.wordpress.org
+      url: https://cn.wordpress.org/plugins/
+      description: WordPress 扩展插件官方下载
 
     - title: PbootCMS 官网
       logo: https://www.google.com/s2/favicons?sz=64&domain=www.pbootcms.com
       url: https://www.pbootcms.com/
-      description: 开源免费的 PHP 建站系统
+      description: 免费开源的 PHP 企业建站系统
+
